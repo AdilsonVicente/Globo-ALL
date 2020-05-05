@@ -1,0 +1,45 @@
+.Login-Field {
+    border: 0;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fdfdfd;
+    position: relative;
+    right: 0.75rem;
+    margin-top: 1rem;
+    font-weight: 800;
+    box-shadow: 0px 2px 0px #fdfdfd;
+    font-size: large;
+}
+
+
+.Login {
+    text-align: center;
+}
+
+.Login-Field:focus {
+    box-shadow: 0 4px 4px rgba(0, 0, 0 .5);
+    outline: none;
+}
+
+.Login-Error {
+    color: #ff8080;
+}
+
+.Login-Btn {
+    background-color: #ffbc40;
+    color: #fdfdfd;
+    border-color: #696969;
+    border: 2px solid transparent ;
+    width: 90% !important;
+    padding: 0.375rem 0.75rem; 
+    line-height: 1.5;
+    border-radius: 50rem;
+    margin-top: 3rem;
+    font: 400 13.3333px Arial;
+    
+    
+}
+
+.Login-Btn:hover {
+    cursor: pointer;
+}
